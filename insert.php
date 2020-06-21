@@ -40,5 +40,6 @@ else{
 
 <p style="color:#FF6600";><?php echo $message; ?></p>
 
+<a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </hmtl>

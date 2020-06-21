@@ -36,8 +36,9 @@
         <input type="text" id="motdepasse" name="password"> 
     </p>
     <p><input type="submit" value="Creer utilisateur"></p>
-</form>        
-
+</form>
+      
+<a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </html>          
 

@@ -56,5 +56,7 @@ $utilisateur = $pdoStat->fetch();
     </p>
     <p><input type="submit" value="Enregistrer les modifications"></p>
 </form>
+
+<a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </html>
