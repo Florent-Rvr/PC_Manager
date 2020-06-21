@@ -26,10 +26,11 @@ else{
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>PC Manager</title>
-    <link rel="shortcut icon" type="image/x-icon" href="PC_Manager_logo.png" />    
+    <link rel="shortcut icon" type="image/x-icon" href="PC_Manager_logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />    
 </head>
 <body>
 <h1>Suppression</h1>
-<p><?= $message ?></p>
+<p style="color:#FF6600";><?= $message ?></p>
 </body>
 </html>

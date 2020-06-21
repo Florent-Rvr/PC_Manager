@@ -21,7 +21,7 @@ if($insertIsok){
     $message = 'L utilisateur a ete ajoute';
 }
 else{
-    $message = 'Echec de l\insertion';
+    $message = 'Echec de l insertion';
 }
 ?>
 <!doctype html>
@@ -33,11 +33,12 @@ else{
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PC Manager</title>
     <link rel="shortcut icon" type="image/x-icon" href="PC_Manager_logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<h1>Ajout d'utilisateurs</h1>
+<h1 style="color:#FFFFFF";>Ajout d'utilisateurs</h1>
 
-<p><?php echo $message; ?></p>
+<p style="color:#FF6600";><?php echo $message; ?></p>
 
 </body>
 </hmtl>

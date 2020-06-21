@@ -21,19 +21,20 @@ $attributiondespostes = $pdoStat->fetchAll();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PC Manager</title>
     <link rel="shortcut icon" type="image/x-icon" href="PC_Manager_logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 <h1 class="box-logo box-title"><a>PC Manager</a></h1>    
-<h1>Attribution des postes</h1>
+<h1 style="color:#FFFFFF";>Attribution des postes</h1>
 
 <ul>
     <?php foreach ($attributiondespostes as $utilisateurs): ?>
-        <li>
+        <li style="color:#FF6600";>
             <?= $utilisateurs['util_pseudo'] ?> - <?= $utilisateurs['util_poste_attribue'] ?>
         <a
-            href="delete_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>">Supprimer</a>
+            href="delete_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>"style="color:#00CCFF";>Supprimer</a>
         <a
-            href="modify_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>">Modifier</a>    
+            href="modify_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>"style="color:#00CCFF";>Modifier</a>    
         </li>  
     <?php endforeach; ?>
 </ul>    
