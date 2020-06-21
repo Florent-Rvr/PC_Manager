@@ -33,7 +33,7 @@ $attributiondespostes = $pdoStat->fetchAll();
 
 <ul>
     <?php foreach ($attributiondespostes as $utilisateurs): ?>
-        <li style="color:#FF6600";>
+        <li style="color:#D2483C";>
             <?= $utilisateurs['util_pseudo'] ?> - <?= $utilisateurs['util_poste_attribue'] ?>
         <a
             href="delete_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>"style="color:#00CCFF";>Supprimer</a>

@@ -35,33 +35,33 @@ $utilisateur = $pdoStat->fetch();
 <h1 style="color:#FFFFFF";>Modifier un utilisateur</h1>
 <form action="modify.php" method="post">
     <input type="hidden" name="numUtilisateur" value="<?= $utilisateur['util_id'] ?>">
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="nom">Nom</label>
         <input id="nom" type="text" name="firstName" value="<?= $utilisateur['util_nom']; ?>">
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="prenom">Prenom</label>
         <input type="text" id="prenom" name="lastName" value="<?= $utilisateur['util_prenom']; ?>">
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="tel">Telephone</label>
         <input type="text" id="tel" name="phone" value="<?= $utilisateur['util_telephone']; ?>">
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="pseudonyme">Pseudo</label>
         <input type="text" id="pseudonyme" name="pseudo" value="<?= $utilisateur['util_pseudo']; ?>"> 
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="poste_attribue">Poste attribue</label>
         <input type="text" id="poste_attribue" name="poste" value="<?= $utilisateur['util_poste_attribue']; ?>"> 
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="motdepasse">Mot de passe</label>
         <input type="text" id="motdepasse" name="password" value="<?= $utilisateur['util_motdepasse']; ?>"> 
     </p>
     <p><input type="submit" value="Enregistrer les modifications"></p>
 </form>
-
+<a href="display_users.php" target="_blank"> <input type="button" value="Revenir a la visualisation"> </a>
 <a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </html>

@@ -43,8 +43,8 @@ else{
 <p class="floatstop"></p> 
 <h1 style="color:#FFFFFF";>Ajout d'utilisateurs</h1>
 
-<p style="color:#FF6600";><?php echo $message; ?></p>
-
+<p style="color:#D2483C";><?php echo $message; ?></p>
 <a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
+<a href="display_users.php" target="_blank"> <input type="button" value="Visualiser les attributions de poste"> </a>
 </body>
 </hmtl>

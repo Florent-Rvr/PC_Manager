@@ -19,33 +19,33 @@
 <h1 style="color:#FFFFFF";>Ajouter un utilisateur</h1>
 <form action="insert.php" method="post">
 
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="nom">Nom</label>
         <input id="nom" type="text" name="firstName">
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="prenom">Prenom</label>
         <input type="text" id="prenom" name="lastName">
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="tel">Telephone</label>
         <input type="text" id="tel" name="phone"> 
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="pseudonyme">Pseudo</label>
         <input type="text" id="pseudonyme" name="pseudo"> 
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="poste_attribue">Poste attribue</label>
         <input type="text" id="poste_attribue" name="poste"> 
     </p>
-    <p style="color:#FF6600";>
+    <p style="color:#D2483C";>
         <label for="motdepasse">Mot de passe</label>
         <input type="text" id="motdepasse" name="password"> 
     </p>
     <p><input type="submit" value="Creer utilisateur"></p>
 </form>
-      
+<a href="display_users.php" target="_blank"> <input type="button" value="Visualiser les attributions de poste"> </a>      
 <a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </html>          

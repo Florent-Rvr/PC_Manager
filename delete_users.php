@@ -36,8 +36,8 @@ else{
 <h1 class="logoname"><a>PC Manager</a></h1>
 <p class="floatstop"></p>     
 <h1 style="color:#FFFFFF";>Suppression</h1>
-<p style="color:#FF6600";><?= $message ?></p>
-
+<p style="color:#D2483C";><?= $message ?></p>
+<a href="display_users.php" target="_blank"> <input type="button" value="Revenir a la visualisation"> </a>
 <a href="index.php" target="_blank"> <input type="button" value="Revenir au tableau de bord"> </a>
 </body>
 </html>
