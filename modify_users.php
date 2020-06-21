@@ -27,7 +27,12 @@ $utilisateur = $pdoStat->fetch();
     <link rel="stylesheet" type="text/css" href="style.css" />    
 </head>
 <body>
-<h1 class="box-title">Modifier un utilisateur</h1>
+<div id="logobox">    
+<img src="PC_Manager_logo.png" width="70" height="60" alt="" title="" />    
+</div> 
+<h1 class="logoname"><a>PC Manager</a></h1>
+<p class="floatstop"></p>      
+<h1 style="color:#FFFFFF";>Modifier un utilisateur</h1>
 <form action="modify.php" method="post">
     <input type="hidden" name="numUtilisateur" value="<?= $utilisateur['util_id'] ?>">
     <p style="color:#FF6600";>

@@ -24,7 +24,11 @@ $attributiondespostes = $pdoStat->fetchAll();
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<h1 class="box-logo box-title"><a>PC Manager</a></h1>    
+<div id="logobox">    
+<img src="PC_Manager_logo.png" width="70" height="60" alt="" title="" />    
+</div> 
+<h1 class="logoname"><a>PC Manager</a></h1>
+<p class="floatstop"></p>  
 <h1 style="color:#FFFFFF";>Attribution des postes</h1>
 
 <ul>

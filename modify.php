@@ -38,6 +38,11 @@ else{
     <link rel="stylesheet" type="text/css" href="style.css" />    
 </head>
 <body>
+<div id="logobox">    
+<img src="PC_Manager_logo.png" width="70" height="60" alt="" title="" />    
+</div> 
+<h1 class="logoname"><a>PC Manager</a></h1>
+<p class="floatstop"></p>      
 <h1 style="color:#FFFFFF";>Resultat de la modification</h1>
 <p style="color:#FF6600";><?= $message ?></p>
 
