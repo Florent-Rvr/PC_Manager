@@ -29,7 +29,8 @@ $attributiondespostes = $pdoStat->fetchAll();
 <ul>
     <?php foreach ($attributiondespostes as $utilisateurs): ?>
         <li>
-            <?= $utilisateurs['util_pseudo'] ?> - <?= $utilisateurs['util_poste_attribue'] ?>
+            <?= $utilisateurs['util_pseudo'] ?> - <?= $utilisateurs['util_poste_attribue'] ?> <a
+            href="delete_users.php?numUtilisateur=<?= $utilisateurs['util_id'] ?>">Supprimer</a>
         </li>  
     <?php endforeach; ?>
 </ul>    
