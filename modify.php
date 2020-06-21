@@ -4,7 +4,7 @@
 $objetPdo = new PDO('mysql:host=localhost;dbname=pc_manager','root','');
 
 //préparation de la requête d'insertion (SQL)
-$pdoStat = $objetPdo->prepare('UPDATE utilisateurs set util_nom=:nom, util_prenom=:prenom, util_telephone=:telephone, util_pseudo=:pseudonyme, util_poste_attribue=:poste_attribue, util_motdepasse=:motdepasse WHERE until_id=:num LIMIT 1');
+$pdoStat = $objetPdo->prepare('UPDATE utilisateurs set util_nom=:nom, util_prenom=:prenom, util_telephone=:telephone, util_pseudo=:pseudonyme, util_poste_attribue=:poste_attribue, util_motdepasse=:motdepasse WHERE util_id=:num LIMIT 1');
 
 //liaison du paramètre nommé
 $pdoStat->bindValue(':num', $_POST['numUtilisateur'], PDO::PARAM_INT);
