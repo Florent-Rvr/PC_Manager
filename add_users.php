@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <title>PC Manager</title>
+    <link rel="shortcut icon" type="image/x-icon" href="PC_Manager_logo.png" />
    
 </head>
 <body>
