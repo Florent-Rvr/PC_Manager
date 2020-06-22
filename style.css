@@ -1,6 +1,7 @@
 body {
     background: #281f4d;
   }
+
 #logobox {
   float: left;
   width: 250px;
@@ -8,7 +9,8 @@ body {
   background-color: grey;
   border: 1px solid black;
   border-radius: 5px;
-}  
+} 
+
 h1.logoname{
   float: left;
   color:white;
@@ -17,6 +19,7 @@ h1.logoname{
   top : 3px;
   left : 75px;
 }
+
 .floatstop {
   clear: both;
 }  
