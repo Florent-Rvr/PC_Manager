@@ -1,5 +1,5 @@
 <?php
-    //connexion à la base de donnée
+    //paramètres de connexion à la base de donnée
     define('DB_SERVER', 'localhost');
     
     define('DB_USERNAME', 'root');
